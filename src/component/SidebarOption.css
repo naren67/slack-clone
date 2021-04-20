@@ -1,0 +1,24 @@
+.sidebarOption{
+          display: flex;
+          align-items: center;
+          color: rgba(220, 220, 220, 0.843);
+          padding-top: 6px;
+          padding-bottom: 6px;
+          cursor: pointer;
+}
+
+.sidebarOption:hover{
+          background: #0f93bb;
+}
+
+.sidebarOption__icon{
+          margin-left: 25px;
+}
+
+.sidebarOption p{
+          font-size: 12px;
+}
+
+.sidebarOption span{
+          margin-left: 40px;
+}

@@ -1,0 +1,65 @@
+.header{
+          display: flex;
+          background: #4A154B;
+          justify-content: center;
+          align-items: center;
+          padding: 6px 0px;
+          position: sticky;
+          top: 0px;
+          z-index: 10;
+}
+
+.header__left{
+          display: flex;
+          align-items: center;
+          margin-right: 300px;
+          margin-left: 300px;
+          flex: 1;
+}
+
+.header__search{
+          border: 1px solid rgba(220, 220, 220, 0.571);
+          border-radius: 5px;
+          width: 100%;
+          padding: 4px;
+          margin-left: 10px;
+          margin-right: 10px;
+          background: rgb(111, 15, 111);
+          min-width: 100px;
+}
+
+.header__search input{
+          display: flex;
+          flex: 1;
+          width: 90%;
+          margin-left: 10px;
+          background: rgb(111, 15, 111);
+          border: none;
+          outline: none;
+          color: white;
+          min-width: 1px;
+}
+
+.header__account{
+        margin-right: 20px;
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+}
+
+.header__icon{
+          color: white;
+          cursor: pointer;
+}
+
+.header__account img{
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
+}
+
+.header__account p{
+        color: white;
+        font-size: 11px;
+        margin-right: 10px;
+}

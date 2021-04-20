@@ -1,0 +1,36 @@
+.chatInput__messenger{
+          border: 1px solid lightslategray;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          height: 50px;
+          padding-left: 20px;
+          padding-right: 20px;
+          border-radius: 5px;
+          margin: 20px;
+          background: rgba(128, 128, 128, 0.258);
+          z-index: 2;
+          backdrop-filter: blur(20px);
+}
+
+.chatInput__Icon{
+          cursor: pointer;
+          color: gray;
+}
+
+
+.chatInput__messenger input{
+        width: 100%;
+        height: 40px;
+        border: none;
+        outline: none;
+        background: rgba(128, 128, 128, 0);
+        color: white;
+}
+
+.chatInput__messenger button{
+          outline: none;
+          border: none;
+          background: none;
+}
+

@@ -1,0 +1,89 @@
+.sidebar{
+          background: rgb(110, 10, 110); 
+          flex: 0.24;
+          overflow-y: scroll;
+          min-width: 220px;
+       
+}
+
+.sidebar::-webkit-scrollbar{
+         display: none;
+         width: 0px;
+         background: greenyellow;
+}
+
+
+
+.sidebar__header{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: rgb(110, 10, 110);
+          height: 60px;
+          color: white;
+}
+
+.sidebar__options{
+          display: flex;
+          flex-direction: column;
+          
+          
+}
+
+.sidebar__header p{
+          font-size: 13px;
+          font-weight: bold;
+          cursor: pointer;
+          margin-right: 1px;
+}
+
+.sidebar__headerTitle{
+          display: flex;
+          align-items: center;
+          margin-left: 20px;
+          margin-right: auto;
+}
+
+.sidebar__headerArrow{
+          cursor: pointer;
+}
+
+.sidebar__headerPencil{
+          color: rgb(111, 15, 111);
+}
+
+.sidebar__headerTencil{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: white;
+          padding: 10px;
+          border-radius: 999px;
+          cursor: pointer;
+          margin-right: 20px;
+          margin-left: auto;
+}
+
+.sidebar__options{
+          background: rgb(110, 10, 110);
+          max-width: 220px;
+}
+
+.sidebar__notes{
+          background: rgb(110, 10, 110);
+          max-width: 220px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 10px 20px;
+          margin-top: 10px;
+          border-radius: 10px;
+}
+
+hr{
+          margin-top: 10px;
+          margin-bottom: 10px;
+          border: 0.01px solid rgba(211, 211, 211, 0.347);
+          display: flex;
+}
+
